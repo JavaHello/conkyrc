@@ -47,7 +47,7 @@ show_graph_range no
 
 use_xft yes
 xftalpha 0.1
-xftfont Droid Sans:size=12
+xftfont DejaVu Sans Mono:size=12
 color0 white
 color1 EAEAEA
 color2 FFA300
