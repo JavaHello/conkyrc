@@ -45,6 +45,8 @@ use_spacer none
 show_graph_scale no
 show_graph_range no
 
+short_units
+
 use_xft yes
 xftalpha 0.1
 xftfont DejaVu Sans Mono:size=10
