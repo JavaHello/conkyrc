@@ -7,7 +7,7 @@
 background yes
 double_buffer yes
 
-alignment bottom_left
+alignment top_left
 
 border_width 1
 cpu_avg_samples 2
@@ -19,8 +19,8 @@ draw_graph_borders yes
 draw_outline no
 draw_shades no
 
-gap_x 850
-gap_y 40
+gap_x 20
+gap_y 760
 net_avg_samples 2
 no_buffers yes
 out_to_console no
@@ -60,4 +60,4 @@ ${color2}Fan Speed ${alignr}${color0}${execi 5 nvidia-settings -q [fan:0]/GPUCur
 ${color2}GPU Clock ${alignr}${color0}${nvidia gpufreq} MHz
 ${color2}Mem Clock ${alignr}${color0}${nvidia memfreq} MHz
 ${color2}Mem Used ${alignr}${color0}${execi 5 nvidia-settings -q [gpu:0]/UsedDedicatedGPUMemory -t} / ${exec nvidia-settings -q [gpu:0]/TotalDedicatedGPUMemory -t} MiB
-${image ./nvidia.png -p 0,90 -s 200x132}
+# ${image ./nvidia.jpg -p 0,90 -s 200x132}

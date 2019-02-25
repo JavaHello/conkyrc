@@ -60,5 +60,5 @@ ${color2}Read ${color0}${alignr}${diskio_read nvme0n1}/s
 ${#FFCC00}${diskiograph_read nvme0n1 80,175 CCFF00 CCFF00}
 ${color2}Write ${color0}${alignr}${diskio_write nvme0n1}/s 
 ${#FFCC00}${diskiograph_write nvme0n1 80,175 CCFF00 CCFF00}
-nvme0 ${color0}${alignr}${fs_used}/${fs_size}
+nvme0n1 ${color0}${alignr}${fs_used}/${fs_size}
 ${color1}${fs_bar}
